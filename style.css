@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: antiquewhite;
+    background-color: #121212;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 18vh;
+    margin-bottom: 80px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.mainheading{
+    font-size: 36px;
+    color: #f8f8f8;
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing{
+    0%{
+        text-shadow: 0 0 10px #f9d71c;
+
+    }
+    50%
+    {
+        text-shadow: 0 0 20px #f9d71c, 0 0 30px #f9d71c;
+    }
+    100%{
+        text-shadow: 0 0 10px #f9d71c;
+    }
+}
+.register{
+    background-color: #00adad;
+    color: #000000;
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+}
+section{
+    margin-left: 100px;
+    margin-right: 220px;
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:150px;
+}
+.img1{
+    height: 200px;
+    width: 400px;
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+}
+footer ul{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin-bottom: 50px
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    width: 45vw;
+    background-color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+fieldset input{
+color: #dfc5a3;
+width: 44vw;
+background-color:#000000;
+border-radius: 20px;
+font-size: 20px;
+}
+fieldset textarea{
+    background-color: #000000;
+    color: #dfc5a3;
+    font-size: 20px;
+}
+#submit{
+    background-color: #00adad;
+    font-weight: 700;
+    color: #000000;
+    font: 10px;
+    padding: 5px 15px;
+    width: 10vw;
+    margin-left: 265px;
+    border-radius: 10px;
+    border: none
+    
+  
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: #dfc5a3;
+    color: #000000;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #dfc5a3;
+    color: #000000;
+}
