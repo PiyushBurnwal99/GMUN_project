@@ -5,17 +5,8 @@ body{
     color: antiquewhite;
     background-color: #121212;
 }
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 18vh;
-    margin-bottom: 80px;
-    margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.mainheading{
+
+.mainheading,h2{
     font-size: 36px;
     color: #f8f8f8;
     animation: glowing 2s infinite;
@@ -43,19 +34,80 @@ header{
     border-radius: 5px;
     font-weight: 800;
 }
-section{
-    margin-left: 100px;
-    margin-right: 220px;
-    margin-bottom: 140px;
+@media only screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+       padding-top: 100px;
+       gap: 35px;
+    }
+    header h1{
+        padding-left: 50px;
+    }
+   section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20%;
+    
+    
+   }
+   section img{
+    width: 220px;
+    height: 110px;
+   }
+   .GeneralAssembly{
+    margin-top: 100px;
+   }
+   
+    
+}
+@media only screen and (768px<=width<=992px){
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    section img{
+        width: 320px;
+        height: 160px;
+       }
+
+}
+header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap:150px;
+    height: 18vh;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+section{
+    margin-left: 100px;
+    margin-right: 220px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:50px;
+}
+@media only screen and (min-width: 992px) {
+
 .img1{
     height: 200px;
     width: 400px;
     
+}
 }
 footer{
     display: flex;
@@ -86,7 +138,7 @@ fieldset {
 }
 fieldset input{
 color: #dfc5a3;
-width: 44vw;
+width: 100%;
 background-color:#000000;
 border-radius: 20px;
 font-size: 20px;
@@ -102,8 +154,8 @@ fieldset textarea{
     color: #000000;
     font: 10px;
     padding: 5px 15px;
-    width: 10vw;
-    margin-left: 265px;
+    width: 25%;
+    margin-left: 40%;
     border-radius: 10px;
     border: none
     
