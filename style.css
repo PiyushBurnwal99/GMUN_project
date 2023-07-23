@@ -87,6 +87,20 @@ body{
             color: #dfc5a3;
             font-size: 10px;
         }
+        #submit{
+            background-color: #00adad;
+            font-weight: 700;
+            color: #000000;
+            font: 8px;
+            padding: 5px 12px;
+            width: 30%;
+            margin-left: 40%;
+            border-radius: 8px;
+            border: none
+            
+          
+        
+        }
     
 }
    
@@ -126,6 +140,20 @@ body{
                 background-color: #000000;
                 color: #dfc5a3;
                 font-size: 20px;
+            }
+            #submit{
+                background-color: #00adad;
+                font-weight: 700;
+                color: #000000;
+                font: 10px;
+                padding: 5px 15px;
+                width: 25%;
+                margin-left: 40%;
+                border-radius: 10px;
+                border: none
+                
+              
+            
             }
         
     }
@@ -180,6 +208,20 @@ fieldset input{
         color: #dfc5a3;
         font-size: 20px;
     }
+    #submit{
+        background-color: #00adad;
+        font-weight: 700;
+        color: #000000;
+        font: 10px;
+        padding: 5px 15px;
+        width: 25%;
+        margin-left: 40%;
+        border-radius: 10px;
+        border: none
+        
+      
+    
+    }
 }
 footer{
     display: flex;
@@ -198,20 +240,7 @@ footer ul{
     margin-bottom: 50px
 }
 
-#submit{
-    background-color: #00adad;
-    font-weight: 700;
-    color: #000000;
-    font: 10px;
-    padding: 5px 15px;
-    width: 25%;
-    margin-left: 40%;
-    border-radius: 10px;
-    border: none
-    
-  
 
-}
 button:hover{
     cursor: pointer;
     background-color: #dfc5a3;
