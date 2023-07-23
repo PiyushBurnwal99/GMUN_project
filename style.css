@@ -65,8 +65,33 @@ body{
     margin-top: 100px;
    }
    
+   fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    width: 0%;
+    background-color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+   }
+    fieldset input{
+        color: #dfc5a3;
+        width: 100%;
+        background-color:#000000;
+        border-radius: 20px;
+        font-size: 10px;
+        }
+        fieldset textarea{
+            background-color: #000000;
+            color: #dfc5a3;
+            font-size: 10px;
+        }
     
 }
+   
+    
+
 @media only screen and (768px<=width<=992px){
     section{
         display: flex;
@@ -80,8 +105,32 @@ body{
         width: 320px;
         height: 160px;
        }
+       fieldset {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        border-radius: 20px;
+        width: 45vw;
+        background-color: #000000;
+        margin-top: 50px;
+        margin-bottom: 100px;
+       }
+       fieldset input{
+        color: #dfc5a3;
+        width: 100%;
+        background-color:#000000;
+        border-radius: 20px;
+        font-size: 20px;
+        }
+        fieldset textarea{
+                background-color: #000000;
+                color: #dfc5a3;
+                font-size: 20px;
+            }
+        
+    }
 
-}
+
 header{
     display: flex;
     align-items: center;
@@ -108,6 +157,29 @@ section{
     width: 400px;
     
 }
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    width: 45vw;
+    background-color: #000000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+fieldset input{
+    color: #dfc5a3;
+    width: 100%;
+    background-color:#000000;
+    border-radius: 20px;
+    font-size: 20px;
+    }
+    fieldset textarea{
+        background-color: #000000;
+        color: #dfc5a3;
+        font-size: 20px;
+    }
 }
 footer{
     display: flex;
@@ -125,29 +197,7 @@ footer ul{
     gap: 60px;
     margin-bottom: 50px
 }
-fieldset {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    border-radius: 20px;
-    width: 45vw;
-    background-color: #000000;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    
-}
-fieldset input{
-color: #dfc5a3;
-width: 100%;
-background-color:#000000;
-border-radius: 20px;
-font-size: 20px;
-}
-fieldset textarea{
-    background-color: #000000;
-    color: #dfc5a3;
-    font-size: 20px;
-}
+
 #submit{
     background-color: #00adad;
     font-weight: 700;
